@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+ul {
+    list-style-type: none;
+}
+.app {
+    width: 300px;
+    height: 480px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: 100px;
+    padding: 28px;
+    background-color: rgb(13, 128, 204);
+    color: white;
+}
+li {
+    margin-top: 20px;
+}
+.city_name {
+    font-size: 2em;
+}
+.temp {
+    font-size: 3em;
+}
+.weather {
+    font-size: 1.5em;
+}
+select {
+    padding: 5px 1rem;
+    margin-top: 1rem;
+    border-style: none;
+    border-radius: 5px;
+}
